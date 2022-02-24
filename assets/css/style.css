@@ -1,11 +1,12 @@
 /* BASIC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 html {
     background-color: #56baed;
   }
   
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Amatic SC', cursive;
     height: 100vh;
   }
   
@@ -17,13 +18,14 @@ html {
   }
   
   h2 {
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 400;
     display:inline-block;
     margin: 40px 8px 10px 8px; 
     color: #cccccc;
+    padding: 10px;
   }
   
   
@@ -268,4 +270,31 @@ html {
     opacity: 0.9;
     text-shadow: 1px 1px 2px #000000;
     
+  }
+
+  #check {
+    width: 100px;
+    height: 100px;
+    padding:5px;
+   }
+
+  .descarga {
+    position:fixed;
+    right:8%;
+    top: 5%;
+    height: 70px;
+    width: 70px;
+  }
+
+  .globo{
+    width: 150px;
+    text-size-adjust: 4px;
+    position:fixed;
+    right:16%;
+    top: 3%;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(11, 14, 218);
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.7;
+  
   }
