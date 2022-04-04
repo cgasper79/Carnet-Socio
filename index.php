@@ -36,6 +36,13 @@ $clienteNoEncontrado = $_GET['fallo'];
   </script>
 
   <title>Socio Minimal</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("form").submit();
+       }
+  </script>
+
 </head>
 
 <body>
@@ -60,10 +67,10 @@ $clienteNoEncontrado = $_GET['fallo'];
       </div>
   
       <!-- Login Form -->
-      <form action="carnet.php" class="was-validated">
+      <form id="form" action="carnet.php" class="was-validated">
         <input type="text" id="numSocio" class="fadeIn second" name="numSocio" placeholder="Número de socio" required>
         <input type="text" id="nombre" class="fadeIn third" name="nombre" placeholder="Nombre" required>
-        <input type="submit" class="fadeIn fourth" value="Obtener">
+        <input type="submit" class="g-recaptcha fadeIn fourth" data-sitekey="6LeCKz0fAAAAAHoGLQcKkQKP-7UmBHjsgm6XfOQd" data-callback='onSubmit' value="Obtener">
       </form>
   
       <div class="credits fadeIn fourth">
@@ -74,6 +81,13 @@ $clienteNoEncontrado = $_GET['fallo'];
     </div>
     
   </div>
+
+  <div class="g-recaptcha"
+      data-sitekey="6LeCKz0fAAAAAHoGLQcKkQKP-7UmBHjsgm6XfOQd"
+      data-callback="onSubmit"
+      data-size="invisible">
+  </div>
+
 
   <!-- Bootstrap 4 JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">

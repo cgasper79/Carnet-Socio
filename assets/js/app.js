@@ -1,23 +1,13 @@
 
-function pdf(){
-    console.log("pdf");
-    var doc = new jsPDF();
-    var elementHTML = $('#content').html();
-    var specialElementHandlers = {
-        '#elementH': function (element, renderer) {
-        return true;
-    }
-};
-doc.fromHTML(elementHTML, 15, 15, {
-    'width': 170,
-    'elementHandlers': specialElementHandlers
-});
+/** 
+ * Recaptcha 
+ * **/
 
-// Save the PDF
-doc.save('sample-document.pdf');
-}
+grecaptcha.execute();
+
 /** 
  * Código para Generación código QR 
+ * 
  * **/
 
 var qrcode = new QRCode(document.getElementById("qrcode"), {
