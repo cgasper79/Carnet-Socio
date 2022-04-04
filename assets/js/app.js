@@ -1,11 +1,5 @@
 
 /** 
- * Recaptcha 
- * **/
-
-grecaptcha.execute();
-
-/** 
  * Código para Generación código QR 
  * 
  * **/
@@ -23,6 +17,7 @@ function makeCode () {
 
 // Al cargar crear el qr inicial
 makeCode();
+
 
 /* Jquery */
 
@@ -52,3 +47,8 @@ $(document).ready(function(){
     },5000);
           
 });
+
+/** 
+ * Recaptcha 
+ * **/
+ grecaptcha.execute();
