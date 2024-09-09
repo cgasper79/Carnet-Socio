@@ -86,8 +86,8 @@
         
       <div class="credits fadeIn fourth">
         <br>
-        <a href="https://gasperwebdesign.com/"><img src="./assets/img/logo_gasper.png" alt="Gasper Web Design"/></a>
-        <p>- &copy; 2022 Diseño -</p>
+        <a href="https://github.com/cgasper79/Carnet-Socio"><img src="./assets/img/github.png" id="icon" alt="User Icon" /> View project on Github</a>
+        <p>- @cgasper79 - <a href="./LICENSE">MIT License</a> -</p>
       </div>
       <div alig="center" class="globo">
             <p>Pulsa aquí para descargar</p>

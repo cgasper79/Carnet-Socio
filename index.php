@@ -74,8 +74,8 @@ $clienteNoEncontrado = $_GET['fallo'];
       </form>
   
       <div class="credits fadeIn fourth">
-        <a href="https://gasperwebdesign.com/"><img src="./assets/img/logo_gasper.png" id="icon" alt="User Icon" /></a>
-        <p>- &copy; 2022 Diseño -</p>
+        <a href="https://github.com/cgasper79/Carnet-Socio"><img src="./assets/img/github.png" id="icon" alt="User Icon" /> View project on Github</a>
+        <p>- @cgasper79 - <a href="./LICENSE">MIT License</a> -</p>
       </div>
 
     </div>
