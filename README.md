@@ -62,7 +62,7 @@ To run this application, you will need the following:
 - Make sure your web server is configured to serve PHP files.
 - Access the application in your browser at http://localhost.
 
-##Usage
+## Usage
 
 1. Register Members: Enter the member's information (name, ID number, etc.) through the web form.
 2. JSON Storage: The data for each member will be saved in a clientes.json file inside the Private folder.
